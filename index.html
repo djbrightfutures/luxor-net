@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Luxor Net Technologies</title>
+<meta name="description" content="New, proven, easy-to-use security methods - including security that AI systems can safely implement. Open source, founded by Christian Rivera (DJ BrightFuture).">
+<style>
+  :root{ --bg:#070b12; --panel:#111927; --line:#22304a; --txt:#eaf1fb; --dim:#93a4be; --accent:#5db0ff; --accent2:#7d6bff; --ok:#39d98a; color-scheme:dark; }
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(1200px 600px at 70% -10%, #142138 0%, var(--bg) 55%);color:var(--txt);font:16px/1.6 system-ui,Segoe UI,Roboto,sans-serif}
+  .wrap{max-width:860px;margin:0 auto;padding:0 20px}
+  header{padding:70px 0 40px;text-align:center}
+  .badge{display:inline-block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);border:1px solid var(--line);border-radius:999px;padding:5px 12px;margin-bottom:18px}
+  h1{font-size:clamp(30px,6vw,48px);margin:0 0 12px;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .tag{font-size:clamp(16px,2.6vw,20px);color:var(--txt);max-width:640px;margin:0 auto 8px}
+  .by{color:var(--dim);font-size:14px}
+  section{margin:34px 0}
+  h2{font-size:22px;margin:0 0 14px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px;margin:16px 0;text-decoration:none;color:inherit;display:block;transition:border-color .15s,transform .15s}
+  a.card:hover{border-color:var(--accent);transform:translateY(-2px)}
+  .card h3{margin:0 0 6px;font-size:20px}
+  .card .em{font-style:italic;color:var(--accent)}
+  .card p{margin:8px 0 0;color:var(--dim)}
+  .links{margin-top:12px;font-size:14px}
+  .links a{color:var(--accent);margin-right:16px}
+  ul.principles{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+  ul.principles li{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
+  ul.principles b{color:var(--txt)}
+  footer{color:var(--dim);font-size:13px;text-align:center;padding:40px 0 60px;border-top:1px solid var(--line);margin-top:40px}
+  .soon{color:var(--dim);font-size:14px;font-style:italic;margin-top:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="badge">Luxor Net Technologies</div>
+    <h1>Security that works &mdash; and shows its work</h1>
+    <p class="tag">New, proven, easy-to-use security methods &mdash; including security that AI systems can safely implement.</p>
+    <p class="by">Open source &middot; founded by Christian Rivera (DJ BrightFuture)</p>
+  </header>
+
+  <section>
+    <p style="color:var(--dim)">Many teams don't let their AI touch real security work. Luxor Net's aim is to change that:
+    publish security methods that are simple to adopt and proven in the open, so developers &mdash; and the AI
+    assistants building alongside them &mdash; can implement strong protection without inventing risky crypto from
+    scratch. Our goal is to earn the trust of individuals and large organizations by showing the work: open code,
+    honest limits, real tests.</p>
+  </section>
+
+  <section>
+    <h2>Inventions</h2>
+    <a class="card" href="./luxor-net-key/demo.html">
+      <h3>🔑 Luxor Net Key <span class="em">&mdash; a secret picture is your key</span></h3>
+      <p>Derive an encryption key from the exact bytes of a secret picture &mdash; best of all, a photo of your own
+      random pencil drawing. Zero-knowledge: the picture is never stored, only ciphertext is. A wrong picture can't
+      open your data.</p>
+      <div class="links">
+        <span style="color:var(--ok)">Try the live demo &rarr;</span>
+      </div>
+    </a>
+    <p class="soon">More Luxor Net inventions will be added here as they are built and proven.</p>
+  </section>
+
+  <section>
+    <h2>Principles</h2>
+    <ul class="principles">
+      <li><b>Prove it, then publish it.</b> Every method ships with tests that show it does what it claims.</li>
+      <li><b>State the limits.</b> A security tool that hides its weaknesses is lying. Ours are written plainly.</li>
+      <li><b>Zero-knowledge by default.</b> Your keys and secrets never leave your device.</li>
+      <li><b>Easy to use.</b> A method no one can adopt protects no one.</li>
+    </ul>
+  </section>
+
+  <footer>
+    MIT licensed &middot; &copy; 2026 Christian Rivera (DJ BrightFuture), Luxor Net Technologies
+  </footer>
+</div>
+</body>
+</html>

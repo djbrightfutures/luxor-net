@@ -29,6 +29,12 @@
   ul.principles b{color:var(--txt)}
   footer{color:var(--dim);font-size:13px;text-align:center;padding:40px 0 60px;border-top:1px solid var(--line);margin-top:40px}
   .soon{color:var(--dim);font-size:14px;font-style:italic;margin-top:8px}
+  .lt-shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px;margin:14px 0}
+  .lt-shots img{width:100%;border-radius:10px;border:1px solid var(--line);display:block}
+  .lt-video{width:100%;max-height:70vh;border-radius:12px;border:1px solid var(--line);margin:8px 0;background:#000}
+  ol.steps{margin:10px 0 0;padding-left:20px}
+  ol.steps li{margin:6px 0}
+  .card.pending{opacity:.72}
 </style>
 </head>
 <body>
@@ -60,6 +66,54 @@
       </div>
     </a>
     <p class="soon">More Luxor Net inventions will be added here as they are built and proven.</p>
+  </section>
+
+  <section id="local-technologies">
+    <h2>Local Technologies &mdash; run it all on your own machine</h2>
+    <p style="color:var(--dim)">Hands-on builds and tools you run yourself &mdash; no cloud, no signup. Each one shows the real
+    setup: pictures pulled frame-by-frame from the build, a short setup video, and the steps.</p>
+
+    <div class="card">
+      <h3>⚡ Graphite Cell <span class="em">&mdash; run a light with no battery</span></h3>
+      <p>Christian's build. A small flashlight runs off a <b>graphite cell</b> in place of the battery &mdash; "his own
+      battery." Energy straight from the graphite, no store-bought cell.</p>
+      <video class="lt-video" controls preload="metadata" poster="./assets/local-tech/graphite-02.jpg">
+        <source src="./assets/local-tech/graphite-cell-setup.mp4" type="video/mp4">
+        Your browser can't play the setup video &mdash; the step pictures are below.
+      </video>
+      <div class="lt-shots">
+        <img src="./assets/local-tech/graphite-01.jpg" alt="Graphite cell build, step 1" loading="lazy">
+        <img src="./assets/local-tech/graphite-02.jpg" alt="Graphite cell build, step 2" loading="lazy">
+        <img src="./assets/local-tech/graphite-03.jpg" alt="Graphite cell build, step 3" loading="lazy">
+        <img src="./assets/local-tech/graphite-04.jpg" alt="Graphite cell build, step 4" loading="lazy">
+        <img src="./assets/local-tech/graphite-05.jpg" alt="Graphite cell build, step 5" loading="lazy">
+        <img src="./assets/local-tech/graphite-06.jpg" alt="Graphite cell build, step 6" loading="lazy">
+      </div>
+      <b>Setup</b>
+      <ol class="steps">
+        <li>Start with a small LED flashlight that normally takes a battery. Open it and take the battery out.</li>
+        <li>Cut a solid <b>graphite rod</b> (thick graphite, like a heavy pencil lead) to the length of the battery slot &mdash; this is the cell.</li>
+        <li>Wrap a thin strip of <b>paper</b> around one end so the metal spring contact does not touch the graphite directly &mdash; the paper sits between the contact and the graphite.</li>
+        <li>Drop the graphite in where the battery was and keep it centered.</li>
+        <li>Close it up and press the switch &mdash; the light comes on, and brightens as it runs.</li>
+      </ol>
+      <p style="color:var(--dim);font-size:14px;margin-top:10px">Credit: "Spaceman" (Resonate369) &mdash; "there's no shortage of energy, only a shortage of know-how." Documented and built by Christian Rivera.</p>
+      <div class="links"><a href="https://www.facebook.com/share/v/1DxW3sVQBQ/" target="_blank" rel="noopener">Source video &rarr;</a></div>
+    </div>
+
+    <div class="card">
+      <h3>🧠 CLEEN28 Share-Box <span class="em">&mdash; run local AI with no signup</span></h3>
+      <p>A local Luxucleen Orbits twin plus OpenAI/JEV shims, so Bridge28 and JEV run <b>fully local</b> &mdash; no
+      TypeSafe or OpenRouter account, unlimited local Orbits SSD. Ships in the Luxor Net repo.</p>
+      <div class="links"><a href="https://luxucleen.com/orbits" target="_blank" rel="noopener">Orbits product &rarr;</a></div>
+    </div>
+
+    <div class="card pending">
+      <h3>🎬 More local builds <span class="em">&mdash; incoming</span></h3>
+      <p>A YouTube Short Christian flagged is queued for this section. YouTube blocks anonymous download behind a
+      sign-in wall, so it lands here the moment the clip is relayed to the bot &mdash; then frames, a setup video, and
+      the steps, exactly like the build above.</p>
+    </div>
   </section>
 
   <section>
